@@ -55,7 +55,7 @@ main {
   justify-content: space-between;
 }
 
-.current-city {
+#current-city {
   font-size: 38px;
   font-weight: 900;
   margin: 0;
@@ -71,7 +71,7 @@ main {
   color: #f65282;
 }
 
-.current-temperature-icon {
+#current-temperature-icon {
   position: relative;
   top: -8px;
   font-size: 40px;
@@ -85,12 +85,12 @@ img {
   margin-right: 5px;
 }
 
-.current-temperature-value {
+#current-temperature-value {
   font-size: 80px;
   font-weight: bold;
 }
 
-.current-temperature-unit {
+#current-temperature-unit {
   font-size: 28px;
   position: relative;
   top: -38px;
