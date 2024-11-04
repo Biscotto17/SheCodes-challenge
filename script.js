@@ -1,5 +1,5 @@
 function displayTemp(response) {
-  let tempElement = document.querySelector("#current-temperature-value");
+  let tempElement = document.querySelector("#current-temperature-values");
   let temp = Math.round(response.data.temperature.current);
   tempElement.innerHTML = temp;
 
